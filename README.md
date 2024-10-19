@@ -3,7 +3,11 @@ This repository contains the shared resources used in the development of the AML
 
 ## Authors:
 **Group 21**
+
 Alicja Zofia Ziajowska 
 Gabin Rousseau
+
 Ishita Mavinkurve
+
 Philippa Hills
+
