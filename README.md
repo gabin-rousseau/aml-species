@@ -10,5 +10,5 @@ Gabin Rousseau
 
 Ishita Mavinkurve
 
-Philippa Hills
+Philippa Hill
 
