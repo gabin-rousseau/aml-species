@@ -96,8 +96,8 @@ plt.figure(0)
 # get test locations and plot
 # test_inds_pos is the locations where the selected species is predicted to be present
 # test_inds_neg is the locations where the selected species is predicted to be absent
-test_inds_pos = np.where(pred_loc['presence'] == 0)[0]
-test_inds_neg = np.where(pred_loc['presence'] == 1)[0]
+test_inds_pos = np.where(pred_loc['presence'] == 1)[0]
+test_inds_neg = np.where(pred_loc['presence'] == 0)[0]
 plt.plot(pred_loc.iloc[test_inds_pos, 1], pred_loc.iloc[test_inds_pos, 0], 'b.', label='prediction')
 
 # get train locations and plot
