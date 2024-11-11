@@ -39,3 +39,7 @@ States, capped by the max altitude in Western Florida coastal lowlands)
 
 ## The "coordinate box difference" method
 ![Doodle of what my code did to select points for absence annotations](https://github.com/gabin-rousseau/aml-species/blob/main/figures/gabin/1111_boxdifference.png)
+
+Red: Species we are generating pseudoabsences for.
+
+Blue: presence point for any other species.
