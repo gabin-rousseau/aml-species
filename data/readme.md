@@ -1,6 +1,10 @@
 # This directory contains data useful for the project.
 
 ## Files
+- NEW **train_USA_FLspecies_full.zip** : contains a .csv with the same name: this is the data combining the two files below. The 'complete' training data, for when we want to put absences together with the original presence data.
+
+- NEW **train_USA_FLspecies_pseudoabs.zip** : contains a .csv with the same name: same data as below, but pseudoabsences! (all 0's in the 'presence' column). This was made by using my "coordinate box difference" method to get something like target-group background points, which tend to be preffered for pseudoabsences by having them share the sampling bias of the actual presence data (because they are technically presence points for another species, if my understanding is correct). See https://doi.org/10.1016/j.ecoinf.2024.102623 and  https://doi.org/10.1890/07-2153.1 for more info.
+
 - NEW **train_USA_FLspecies.csv** : This contains all (train) presence data points for Florida species throughout the US. (as of 10/11/2024) All elevation levels I defined (see below) are represented in the data (column is 'Alt_zone'). Added the column 'presence'. The only value you'll find in that column is 1, for now. That is because I have yet to generate pseudo-absences and annotate them.
 
 - NEW **test_USA.csv** : features all test coordinates from the US with climate and elevation annotations. There is no species information in this dataset because every coordinate in here may or may not be assigned to a species, or multiple species. However, it is a good reference for that reason. However, you might prefer using the data below:
