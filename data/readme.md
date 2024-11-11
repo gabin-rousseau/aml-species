@@ -36,3 +36,6 @@ States, capped by the max altitude in Western Florida coastal lowlands)
 8. **Between 2500 and 3000:** lower alpine 
 
 9. **3000 and above:** alpine
+
+## The "coordinate box difference" method
+![Doodle of what my code did to select points for absence annotations](https://github.com/gabin-rousseau/aml-species/blob/main/figures/gabin/1111_boxdifference.png)
