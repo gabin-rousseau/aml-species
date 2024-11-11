@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import matplotlib.pyplot as plt
+from sklearn.tree import DecisionTreeClassifier, export_graphviz # Import Decision Tree Classifier
+from sklearn import metrics #Import scikit-learn metrics module for accuracy calculation
 
 #%% Import datasets
 habitats=pd.read_csv('habitat_locs.csv', index_col=[0]) #Just to test code, not used in tree!
