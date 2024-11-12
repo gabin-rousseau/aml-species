@@ -7,7 +7,7 @@
 
 - NEW **train_USA_FLspecies.csv** : This contains all (train) presence data points for Florida species throughout the US. (as of 10/11/2024) All elevation levels I defined (see below) are represented in the data (column is 'Alt_zone'). Added the column 'presence'. The only value you'll find in that column is 1, for now. That is because I have yet to generate pseudo-absences and annotate them.
 
-- NEW **test_USA.csv** : features all test coordinates from the US with climate and elevation annotations. There is no species information in this dataset because every coordinate in here may or may not be assigned to a species, or multiple species. However, it is a good reference for that reason. However, you might prefer using the data below:
+- NEW **predictable_coordinates_USA.csv** (formerly test_USA.csv) : features all test coordinates from the US with climate and elevation annotations. There is no species information in this dataset because every coordinate in here may or may not be assigned to a species, or multiple species. However, it is a good reference for that reason. However, you might prefer using the data below for model evaluation:
 
 - NEW **test_USA_full.csv** : every test species presence datapoint, with climate and elevation annotations! Basically the same columns as train_USA_FLspecies.csv. If I manage to introduce absences in the training data, I should probably also specify test absences in this file.
 
