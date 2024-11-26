@@ -9,7 +9,7 @@
 - test_USA_fullv2.zip : Archive contining a .csv file with the same name. Test dataset featuring all U.S. species within the U.S. Presences/Absences distinguished, complemented by climate and elevation annotations.
 
 
-### CODE
+### CODE (Jupyter notebooks, please run after starting a Jupyter server.)
 
 - prepare_climate_data.ipynb : Jupyter notebook used to prepare climate annotations.
 
