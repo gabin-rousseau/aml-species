@@ -20,8 +20,8 @@ _Warning_: These notebooks were were mainly written with the intention to have a
 
 - (2) US_data.ipynb : Jupyter notebook used for geographical filtering (isolate Floridian species in the training data, and U.S. coordinates in general).
 
-- (3) prepare_train_fl_elevation.ipynb : Jupyter notebook used to fetch and adapt elevation data in the training dataset.
+- (3a) prepare_train_fl_elevation.ipynb : Jupyter notebook used to fetch and adapt elevation data in the training dataset.
 
-- (4) prepare_USA_elevation.ipynb : Jupyter notebook used to fetch and adapt elevation data in the prediction dataset. (Used for corresponding coordinates in the test dataset as well.)
+- (3b) prepare_USA_elevation.ipynb : Jupyter notebook used to fetch and adapt elevation data in the prediction dataset. (Used for corresponding coordinates in the test dataset as well.)
 
-- (5) prepare_pseudo-absences.ipynb : Jupyter notebook to establish presences/absences in the data, as well as final adjustements.
+- (4) prepare_pseudo-absences.ipynb : Jupyter notebook to establish presences/absences in the data, as well as final adjustements.
