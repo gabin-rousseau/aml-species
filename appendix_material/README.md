@@ -11,3 +11,5 @@ Can be found in the "report/" directory. Contains all files used to generate the
 - **subpopulations_clustering** - contains code used for clustering species subpopulations and `README.md` that provides an overview of the code workflow and pre-requisites needed to execute it.
 
 - **Tree2.py** - contains code to reproduce decision tree plots and tuning. Tuning takes a long time, to just reproduce plots and reproduce maps, run sections ADABOOST PREDICTIONS MAP AS IN REPORT, TREE PREDICTION MAP AS IN REPORT and KNOWN DISTRIBUTION AS IN REPORT.
+
+- **species_cooccurence/** : countains code to reproduce clustering, kernel density estimation and DBI graphs. Requires outputs from Tree2.py for the species in consideration
