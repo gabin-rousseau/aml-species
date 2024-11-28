@@ -19,8 +19,9 @@ The libraries used in the code are
 
 The following files are required to recreate the given results: 
 - species_train.npz
-- {species}_predictions.csv ((WRITE IN PIPS PREDICTION FILE AND POINT TO THE CODE THAT GENERATES IT HERE)
+- {species}_AdaBoosted.csv (Saved as an output from Tree2.py)
 
 ## Code
 
 This code is fully run in Python3 Jupyter Notebooks. The output from Tree2.py for a given species is required before attempting to run it. 
+The heatmap can be made independently as well, and does not require predictions from a species. However, to recreate plots as in, the predictions file is necessary.
