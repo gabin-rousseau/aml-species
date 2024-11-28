@@ -25,3 +25,13 @@ The following files are required to recreate the given results:
 
 This code is fully run in Python3 Jupyter Notebooks. The output from Tree2.py for a given species is required before attempting to run it. 
 The heatmap can be made independently as well, and does not require predictions from a species. However, to recreate plots as in, the predictions file is necessary.
+
+## Modifications for Other Species 
+
+The followinf variables need to be modified to run the same analysis for different species
+
+species_list= A list of species from the cluster the species of interest has the highest occurence in (output from the cell above)
+pred= csv file of predictions of species of interest from Tree2.py
+
+
+
