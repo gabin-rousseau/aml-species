@@ -2,7 +2,7 @@
 
 ## Overview
 
-This code was used to cluster species in Florida, and use the most populous species in each cluster to create a heatmap to validate and/or filter the habitat based predictions made. It performs clustering using K-Means, and uses a Kernel Density Estimation plot to generate a heatmap. Yellow/Red areas on the heatmap indicate a higher incidence of fauna similar to the original habitat of the species in Florida.
+This code was used to cluster species in Florida, and use the most populous species in the corresponding cluster to create a heatmap to validate and/or filter the habitat based predictions made. It performs clustering using K-Means, and uses a Kernel Density Estimation plot to generate a heatmap. Yellow/Red areas on the heatmap indicate a higher incidence of fauna similar to the original habitat of the species in Florida.
 
 ## Libraries and Versions 
 
